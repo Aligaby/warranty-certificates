@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pag1,
+#pag2 {
+    display: block;
+    width: 1000px;
+    margin: 0px auto;
+    border: none;
+    padding: 0px;
+    text-align: justify;
+}
+
+.page-break {
+    display: block;
+    page-break-before: always;
+}
+
+#pag1 img,
+#pag2 img {
+    border: 0px;
+}
+
+#pag1 p,
+#pag2 p {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+#pag1 p .col-1,
+#pag1 p .col-2,
+#pag2 p .col-1,
+#pag2 p .col-2 {
+	display: block;
+	width: 450px;
+	font-size: 18px;
+    text-align: justify;
+}
+
+.col-1 {
+	float: left;
+}
+
+.col-2 {
+	float: right;
+}
+
+#pag1 ul,
+#pag2 ul {
+    text-indent: 20px;
+    list-style-position: inside;
+    list-style-type: disc;
+}
